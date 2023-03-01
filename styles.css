@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Yellowtail&display=swap');
+body{
+background-color: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    section{
+        height: 100vh;
+    }
+    section#informacion{
+        background-color: blanchedalmond;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+        url("imagenes/Las-10-mejores-peliculas-de-John-Turturro-segun-Letterboxd.jpg");
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+    }
+    
+    .imagen{
+    width: 600px;
+    height: 600px;
+    margin-top: 5px;
+    border-radius: 35%;
+    border: 5px solid beige;
+    }
+    
+    section#informacion h1{
+        font-size: 5rem;
+        margin: 0%;
+        font-family: "Titillium Web";
+    }
+    section#informacion h2{
+        font-size: 2rem;
+        margin: 0;
+        font-family: "Titillium Web";
+    }
+    section#informacion p{
+        font-size: 2rem;
+        font-family: "Yellowtail";
+display: flex;
+    }
+    section#perfil{
+        background-color:  black;
+    }
+    section#perfil ul li{
+        color: blueviolet;
+        display: flex;
+
+    }
+    section#perfil h2{
+        color:  #2224a6;
+        font-size: 2rem;
+        font-family: "Titillium Web";
+    }
+    section#peliculas{
+        display: flex;
+    }
+    section#peliculas p{
+        font-family: "Titillium Web";
+        color: blueviolet;
+        font-size: 1.5rem;
+        display: flex;
+    }
+    .pelis{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+      
+    }
+    .pelicula{
+       
+        width: 300px;
+    }
+    .pelicula img{
+        width: 130px;
+        height: 130px;
+
+    }
+    header{
+    padding-top: 0%;
+    }
+   
+    nav ul{
+        background-color: black;
+      
+        color: #940253;;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    nav ul li{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+    nav ul li a:hover{
+        background-color: #940253;;
+        color: white;
+    }
+    section#contacto{
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .mol{
+        display: flex;
+        align-items: center;
+    }
+    .mol p{
+     color: azure;
+    }
+    .mol i{
+        background-color: black;
+        color: #940253;
+        border: 1px solid #940253;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: 4px;
+        margin-right: 5px;
+    }
+    .mol h2{
+        color: #940253;
+    }
+    .premios{
+        font-size: 2rem;
+        font-family: "Titillium Web";
+        border: 2px solid #940253;
+        color: #940253;
+        margin-right: 7px; 
+    }
+    .premiosp{
+        font-size: 1.2rem;
+        font-family: "Yellowtail";
+        color: #940253;
+    }
+    .resumen{
+        background-color: black;
+        padding: 140px 0 100px 0;
+        text-align: center;
+    }
+    .resumen .contenido-seccion{
+        color: ghostwhite;
+        max-width: 1000px;
+        margin: auto;
+        padding: 0 10px;
+    }
+    .resumen .contenido-seccion h2{
+       font-size: 2rem;
+    }
+    .resumen .contenido-seccion h3{
+        color: #F66060;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    .resumen .contenido-seccion .info{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 45%;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: inline-block;
+        color: #940253;
+        font-weight: bold;
+        border: 2px solid #940253;
+        padding: 10px;
+        margin-right: 15px;
+    
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 30px;
+        border-collapse: collapse;
+    }
+    .resumen .contenido-seccion .info .col table .datos{
+        color: #940253;
+        width: 40%;
+        border-bottom: 1px solid #bab9b9;
+    }
+    .resumen .contenido-seccion .info .col table h4{
+        margin-top: 10px;
+    }
+    .resumen .contenido-seccion .info .col table h3{
+        color: #940253;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .resumen .contenido-seccion .info .col table p{
+        font-size: 14px;
+    }
+    .resumen .contenido-seccion .info .col table .promedio{
+        display: block;
+        color: #940253;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .resumen .contenido-seccion .info .col .descripcion{
+        color: #940253;
+        border-left: 1px solid #bab9b9;
+        padding-left: 20px;
+        font-family: "Yellowtail";
+    }
+    .formulario {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .formulario__label {
+        color: #940253;
+        display: block;
+        font-weight: 700;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .formulario__grupo-input {
+        position: relative;
+    }
+    
+    .formulario__input {
+        width: 80%;
+        background: #fff;
+        border: 3px solid transparent;
+        border-radius: 3px;
+        height: 45px;
+        line-height: 45px;
+        padding: 0 40px 0 10px;
+        transition: .3s ease all;
+    }
+    
+    .formulario__input:focus {
+        border: 3px solid #0075FF;
+        outline: none;
+        box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+    }
+    
+    .formulario__input-error {
+        font-size: 12px;
+        margin-bottom: 0;
+        display: none;
+    }
+    
+    .formulario__input-error-activo {
+        display: block;
+    }
+    
+    .formulario__validacion-estado {
+        position: absolute;
+        right: 10px;
+        bottom: 15px;
+        z-index: 100;
+        font-size: 16px;
+        opacity: 0;
+    }
+    
+    .formulario__checkbox {
+        margin-right: 10px;
+    }
+    
+    .formulario__grupo-terminos, 
+    .formulario__mensaje,
+    .formulario__grupo-btn-enviar {
+        grid-column: span 2;
+    }
+    
+    .formulario__mensaje {
+        height: 45px;
+        line-height: 45px;
+        background: #F66060;
+        padding: 0 15px;
+        border-radius: 3px;
+        display: none;
+    }
+    
+    .formulario__mensaje-activo {
+        display: block;
+    }
+    
+    .formulario__mensaje p {
+        margin: 0;
+    }
+    
+    .formulario__grupo-btn-enviar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .formulario__btn {
+        height: 45px;
+        line-height: 45px;
+        width: 30%;
+        background: #000;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: .1s ease all;
+    }
+    
+    .formulario__btn:hover {
+        box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+    }
+    
+    .formulario__mensaje-exito {
+        font-size: 14px;
+        color: #119200;
+        display: none;
+    }
+    
+    .formulario__mensaje-exito-activo {
+        display: block;
+    }
+    
+    
+    .formulario__grupo-correcto .formulario__validacion-estado {
+        color: #1ed12d;
+        opacity: 1;
+    }
+    
+    .formulario__grupo-incorrecto .formulario__label {
+        color: #bb2929;
+    }
+    
+    .formulario__grupo-incorrecto .formulario__validacion-estado {
+        color: #bb2929;
+        opacity: 1;
+    }
+    
+    .formulario__grupo-incorrecto .formulario__input {
+        border: 3px solid #bb2929;
+    }
+    footer{
+        width: 100%;
+        background-color: #000;
+    }
+    @media screen and (max-width:800px){
+        section#informacion p{
+            display: flex;
+        }
+        section#peliculas p{
+            display: flex;
+        }}
